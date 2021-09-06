@@ -1,14 +1,16 @@
 /**
  * Clase PeliculaDAO.java
  * @author Daniel Orlando Espinosa Recaman, Natalia Andrea Giraldo Erazo.
- * 
+ * Eplicacion: DAO --> data access object, esta clase interactua con la base de
+ * datos, todos los metodos del DAO dependen de la aplicacion y del CRUD.
  */
 package access;
 
 //Paquetes
 import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.PreparedStatement; //permiten mantener las consultas neutras sin
+//tener en cuenta los parametros.
+import java.sql.ResultSet;//contiene los resultados de una consulta SQL
 import java.sql.SQLException;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
@@ -17,9 +19,9 @@ import utils.ConnectionDB;
 
 public class PeliculaDAO {
 
+    //Inicializa bd en null
     private Connection conn = null;
 
-    
     //Agregar contenido 
     public void agregarContenido(PeliculaModel pelicula) {
         try {
@@ -65,11 +67,11 @@ public class PeliculaDAO {
             String sql = "SELECT * FROM contenido WHERE contenidoId =?";
 
             PreparedStatement statement = conn.prepareStatement(sql);
-            //System.out.println(sql);            
-            statement.setInt(1, id);
+            statement.setInt(1, id);//binding
             ResultSet result = statement.executeQuery();
             result.next();
 
+            //Obtencion de dato bd por ID
             Integer idd = result.getInt(1);
             String titulo = result.getString(2);
             String director = result.getString(3);
@@ -85,9 +87,8 @@ public class PeliculaDAO {
                     + "\nError :" + ex.getMessage());
         }
         return contenido;
-
     }
-    
+
     //Obtener contenido por titulo
     public PeliculaModel getContenidoByTitulo(String titulo) {
 
@@ -101,7 +102,6 @@ public class PeliculaDAO {
             String sql = "SELECT * FROM contenido WHERE contenidoTitulo =?";
 
             PreparedStatement statement = conn.prepareStatement(sql);
-            //System.out.println(sql);            
             statement.setString(1, titulo);
             ResultSet result = statement.executeQuery();
             result.next();
@@ -115,19 +115,18 @@ public class PeliculaDAO {
             int capitulos = result.getInt(7);
             contenido = new PeliculaModel(idd, titulo1, director, anio, categoria, temporadas, capitulos);
             conn.close();
-            
-           
+
         } catch (SQLException ex) {
             ;
-            JOptionPane.showMessageDialog(null, "No se encuentra el contenido: "+titulo);
+            JOptionPane.showMessageDialog(null, "No se encuentra el contenido: " + titulo);
         }
         return contenido;
-
     }
 
-    //Filtrar Peliculas
+    //Read de todos los contenidos
     public ArrayList<PeliculaModel> getAllContenidos() {
 
+        //Creacion ArrayList de obejetos PeliculaModel
         ArrayList<PeliculaModel> contenidos = new ArrayList<>();
 
         try {
@@ -138,10 +137,9 @@ public class PeliculaDAO {
             String sql = "SELECT * FROM contenido";
 
             PreparedStatement statement = conn.prepareStatement(sql);
-            //System.out.println(sql);            
-
             ResultSet result = statement.executeQuery();
 
+            //Iteración de los result.next de los objetos
             while (result.next()) {
                 Integer idd = result.getInt(1);
                 String titulo = result.getString(2);
@@ -150,9 +148,9 @@ public class PeliculaDAO {
                 String categoria = result.getString(5);
                 int temporadas = result.getInt(6);
                 int capitulos = result.getInt(7);
+                //Instancia del objeto PeliculaModel
                 PeliculaModel contenido = new PeliculaModel(idd, titulo, director, anio, categoria, temporadas, capitulos);
-                contenidos.add(contenido);
-
+                contenidos.add(contenido);//agrega el objeto contenido al ArrayList
             }
 
             conn.close();
@@ -224,12 +222,11 @@ public class PeliculaDAO {
             statement.setInt(1, pel_id);
             int rowsDeleted = statement.executeUpdate();
             if (rowsDeleted > 0) {
-                JOptionPane.showMessageDialog(null, "El registro fue borrado exitosamente !");
+                JOptionPane.showMessageDialog(null, "El registro fue borrado exitosamente!");
             }
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, "Código : "
                     + ex.getErrorCode() + "\nError :" + ex.getMessage());
         }
     }
-
 }

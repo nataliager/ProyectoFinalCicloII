@@ -190,7 +190,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                  <Component id="mensajeSeries" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiquetaMensajeSerie" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <Component id="etiquetaVikingos" min="-2" pref="264" max="-2" attributes="0"/>
@@ -212,7 +212,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                          <Component id="mensajeSeries" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiquetaMensajeSerie" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
@@ -287,7 +287,7 @@
                     <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="etiquetaLaCasaDePapelMouseEntered"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JLabel" name="mensajeSeries">
+                <Component class="javax.swing.JLabel" name="etiquetaMensajeSerie">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="2"/>
@@ -346,7 +346,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiquetaMensajePelicula" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
@@ -369,14 +369,14 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace pref="36" max="32767" attributes="0"/>
-                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiquetaMensajePelicula" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="etiquetaInterestelar" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="etiquetaFrargmentado" alignment="3" min="-2" pref="182" max="-2" attributes="0"/>
                                   <Component id="etiquetaBirdBox" alignment="3" min="-2" pref="182" max="-2" attributes="0"/>
                                   <Component id="etiquetaLaPurga" alignment="3" min="-2" pref="182" max="-2" attributes="0"/>
-                                  <Component id="etiquetaInterestelar" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
                               </Group>
                               <Component id="etiquetaVengadores" max="32767" attributes="0"/>
                           </Group>
@@ -386,7 +386,7 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel5">
+                <Component class="javax.swing.JLabel" name="etiquetaMensajePelicula">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="2"/>
@@ -476,9 +476,9 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                          <Component id="jLabel1" min="-2" pref="205" max="-2" attributes="0"/>
+                          <Component id="etiquetaTitulo" min="-2" pref="205" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel2" min="-2" pref="63" max="-2" attributes="0"/>
+                          <Component id="etiquetaBuscar" min="-2" pref="63" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="busqueda" min="-2" pref="539" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -493,12 +493,12 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiquetaTitulo" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="busqueda" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="buscar" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
                                   </Group>
@@ -510,7 +510,7 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel1">
+                <Component class="javax.swing.JLabel" name="etiquetaTitulo">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="48" style="1"/>
@@ -521,7 +521,7 @@
                     <Property name="text" type="java.lang.String" value="RedFlix"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel2">
+                <Component class="javax.swing.JLabel" name="etiquetaBuscar">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="1"/>
@@ -570,7 +570,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="280" max="-2" attributes="0"/>
-                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaContenidos" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
@@ -578,7 +578,7 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="587" max="-2" attributes="0"/>
-                              <Component id="jButton3" min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="botonActualizar" min="-2" pref="120" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace pref="255" max="32767" attributes="0"/>
@@ -589,18 +589,18 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      <Component id="etiquetaContenidos" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                       <Component id="jScrollPane1" min="-2" pref="455" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <Component id="botonActualizar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="131" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel12">
+            <Component class="javax.swing.JLabel" name="etiquetaContenidos">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ebrima" size="48" style="1"/>
@@ -687,7 +687,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JButton" name="jButton3">
+            <Component class="javax.swing.JButton" name="botonActualizar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ebrima" size="14" style="1"/>
@@ -695,7 +695,7 @@
                 <Property name="text" type="java.lang.String" value="Actualizar"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonActualizarActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -728,10 +728,10 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="349" max="-2" attributes="0"/>
-                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAgregarContenido" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="172" max="32767" attributes="0"/>
+                      <EmptySpace pref="178" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -739,13 +739,13 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
-                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                      <Component id="etiquetaAgregarContenido" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jPanel2" max="32767" attributes="0"/>
                           <Component id="jPanel1" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="185" max="32767" attributes="0"/>
+                      <EmptySpace pref="207" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -776,17 +776,17 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                                  <Component id="Agregar1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AgregarPelicula" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                                  <Component id="Buscar1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="limpiarAgregarPelicula" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaAddTitulo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaAddDirector" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaAddAnio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaAddGenero" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace pref="69" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -801,7 +801,7 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
-                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiquetaAgregarPelicula" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -810,44 +810,39 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                          <Component id="jLabel16" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="etiquetaAgregarPelicula" min="-2" pref="24" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="agregarTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                              <Component id="agregarDirector" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="agregarDirector" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddDirector" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddAnio" min="-2" max="-2" attributes="0"/>
                               <Component id="agregarAño" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddGenero" min="-2" max="-2" attributes="0"/>
                               <Component id="contenidoCategoria1" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
-                                  <Component id="Buscar1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
-                                  <Component id="Agregar1" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                          <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="AgregarPelicula" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="limpiarAgregarPelicula" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="20" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel16">
+                <Component class="javax.swing.JLabel" name="etiquetaAgregarPelicula">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="18" style="1"/>
@@ -858,7 +853,7 @@
                     <Property name="text" type="java.lang.String" value="Agregar Pelicula"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel10">
+                <Component class="javax.swing.JLabel" name="etiquetaAddTitulo">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -871,7 +866,7 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarTituloActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel11">
+                <Component class="javax.swing.JLabel" name="etiquetaAddDirector">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -881,7 +876,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="agregarDirector">
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel13">
+                <Component class="javax.swing.JLabel" name="etiquetaAddAnio">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -891,12 +886,12 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="agregarA&#xf1;o">
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel14">
+                <Component class="javax.swing.JLabel" name="etiquetaAddGenero">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Categoria"/>
+                    <Property name="text" type="java.lang.String" value="G&#xe9;nero"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JComboBox" name="contenidoCategoria1">
@@ -916,7 +911,7 @@
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                   </AuxValues>
                 </Component>
-                <Component class="javax.swing.JButton" name="Agregar1">
+                <Component class="javax.swing.JButton" name="AgregarPelicula">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="1"/>
@@ -924,10 +919,10 @@
                     <Property name="text" type="java.lang.String" value="Agregar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Agregar1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AgregarPeliculaActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JButton" name="Buscar1">
+                <Component class="javax.swing.JButton" name="limpiarAgregarPelicula">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="1"/>
@@ -935,7 +930,7 @@
                     <Property name="text" type="java.lang.String" value="Cancelar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Buscar1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="limpiarAgregarPeliculaActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -963,12 +958,12 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddDirector1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddCapitulos" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddAnio1" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddGenero1" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddTemporadas" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddTitulo1" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -977,7 +972,7 @@
                               <Component id="JtextDirectorSerie" alignment="0" max="32767" attributes="0"/>
                               <Component id="JtextAnioSerie" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="JtextCapitulosSerie" alignment="0" pref="70" max="32767" attributes="0"/>
+                                  <Component id="JtextCapitulosSerie" alignment="0" pref="67" max="32767" attributes="0"/>
                                   <Component id="JtextTemporadasSerie" alignment="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
@@ -991,9 +986,9 @@
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
-                                  <Component id="botonAgregarSerie" min="-2" max="-2" attributes="0"/>
+                                  <Component id="agregarSerie" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
-                                  <Component id="botonCancelarSerie" min="-2" max="-2" attributes="0"/>
+                                  <Component id="limpiarAgregarSerie" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="146" pref="187" max="32767" attributes="0"/>
@@ -1006,43 +1001,39 @@
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="JtextTituloSerie" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="JtextDirectorSerie" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="JtextAnioSerie" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="JcomboCategoriaSerie" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="JtextTituloSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddTitulo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="JtextDirectorSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddDirector1" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddAnio1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JtextAnioSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="etiquetaAddGenero1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JcomboCategoriaSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="etiquetaAddTemporadas" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="JtextTemporadasSerie" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaAddCapitulos" min="-2" max="-2" attributes="0"/>
                               <Component id="JtextCapitulosSerie" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                          <EmptySpace pref="11" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="botonAgregarSerie" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="botonCancelarSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="agregarSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="limpiarAgregarSerie" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       </Group>
@@ -1061,7 +1052,7 @@
                     <Property name="text" type="java.lang.String" value="Agregar Serie"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel7">
+                <Component class="javax.swing.JLabel" name="etiquetaAddTitulo1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1069,7 +1060,7 @@
                     <Property name="text" type="java.lang.String" value="Titulo"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel8">
+                <Component class="javax.swing.JLabel" name="etiquetaAddDirector1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1077,7 +1068,7 @@
                     <Property name="text" type="java.lang.String" value="Director"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel20">
+                <Component class="javax.swing.JLabel" name="etiquetaAddAnio1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1085,15 +1076,15 @@
                     <Property name="text" type="java.lang.String" value="A&#xf1;o"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel21">
+                <Component class="javax.swing.JLabel" name="etiquetaAddGenero1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Categoria"/>
+                    <Property name="text" type="java.lang.String" value="G&#xe9;nero"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel22">
+                <Component class="javax.swing.JLabel" name="etiquetaAddTemporadas">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1101,7 +1092,7 @@
                     <Property name="text" type="java.lang.String" value="Temporadas"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel23">
+                <Component class="javax.swing.JLabel" name="etiquetaAddCapitulos">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1136,7 +1127,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="JtextCapitulosSerie">
                 </Component>
-                <Component class="javax.swing.JButton" name="botonAgregarSerie">
+                <Component class="javax.swing.JButton" name="agregarSerie">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="1"/>
@@ -1144,10 +1135,10 @@
                     <Property name="text" type="java.lang.String" value="Agregar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonAgregarSerieActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarSerieActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JButton" name="botonCancelarSerie">
+                <Component class="javax.swing.JButton" name="limpiarAgregarSerie">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="1"/>
@@ -1155,12 +1146,12 @@
                     <Property name="text" type="java.lang.String" value="Cancelar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonCancelarSerieActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="limpiarAgregarSerieActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JLabel" name="jLabel24">
+            <Component class="javax.swing.JLabel" name="etiquetaAgregarContenido">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ebrima" size="48" style="1"/>
@@ -1192,7 +1183,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                      <Component id="etiquetaActualizarContenido" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="374" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
@@ -1208,7 +1199,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                      <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                      <Component id="etiquetaActualizarContenido" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
@@ -1244,17 +1235,17 @@
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="Actualizar" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <Component id="ActualizarSerie" min="-2" pref="111" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="Buscar" min="-2" pref="106" max="-2" attributes="0"/>
+                                  <Component id="limpiarDatosUpdateS" min="-2" pref="106" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaActualizarDirector1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaActualizarTemp" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaActualizarCap" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaActualizarTitulo1" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace pref="37" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -1271,16 +1262,16 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiquetaUpdateId1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaDatosActualizarS" min="-2" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="updateId" min="-2" pref="80" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-                                  <Component id="cargarSerie" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cargarSerieUpdate" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaActualizarSerie" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -1290,39 +1281,39 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                          <Component id="jLabel9" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="etiquetaActualizarSerie" min="-2" pref="24" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaUpdateId1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="updateId" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="cargarSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cargarSerieUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                          <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiquetaDatosActualizarS" min="-2" max="-2" attributes="0"/>
                           <EmptySpace pref="25" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaActualizarTitulo1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="updateTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaActualizarDirector1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="updateDirector" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaActualizarTemp" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="updatetemporadas" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaActualizarCap" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="updateCapitulos" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="25" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="Actualizar" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="Buscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ActualizarSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="limpiarDatosUpdateS" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                       </Group>
@@ -1330,7 +1321,7 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel9">
+                <Component class="javax.swing.JLabel" name="etiquetaActualizarSerie">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="18" style="1"/>
@@ -1341,7 +1332,7 @@
                     <Property name="text" type="java.lang.String" value="Actualizar Serie"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel3">
+                <Component class="javax.swing.JLabel" name="etiquetaUpdateId1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1349,7 +1340,7 @@
                     <Property name="text" type="java.lang.String" value="ID"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel4">
+                <Component class="javax.swing.JLabel" name="etiquetaActualizarTitulo1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1364,7 +1355,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="updateTitulo">
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel25">
+                <Component class="javax.swing.JLabel" name="etiquetaDatosActualizarS">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="18" style="1"/>
@@ -1375,7 +1366,7 @@
                     <Property name="text" type="java.lang.String" value="Datos para actualizar"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel17">
+                <Component class="javax.swing.JLabel" name="etiquetaActualizarDirector1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1383,7 +1374,7 @@
                     <Property name="text" type="java.lang.String" value="Director"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel18">
+                <Component class="javax.swing.JLabel" name="etiquetaActualizarTemp">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1391,7 +1382,7 @@
                     <Property name="text" type="java.lang.String" value="Temporadas"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel19">
+                <Component class="javax.swing.JLabel" name="etiquetaActualizarCap">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1405,7 +1396,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="updateCapitulos">
                 </Component>
-                <Component class="javax.swing.JButton" name="Actualizar">
+                <Component class="javax.swing.JButton" name="ActualizarSerie">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="1"/>
@@ -1413,10 +1404,10 @@
                     <Property name="text" type="java.lang.String" value="Actualizar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ActualizarActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ActualizarSerieActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JButton" name="Buscar">
+                <Component class="javax.swing.JButton" name="limpiarDatosUpdateS">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="14" style="1"/>
@@ -1424,10 +1415,10 @@
                     <Property name="text" type="java.lang.String" value="Cancelar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BuscarActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="limpiarDatosUpdateSActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JButton" name="cargarSerie">
+                <Component class="javax.swing.JButton" name="cargarSerieUpdate">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1435,7 +1426,7 @@
                     <Property name="text" type="java.lang.String" value="Cargar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cargarSerieActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cargarSerieUpdateActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1464,23 +1455,23 @@
                           <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="jLabel27" min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Component id="etiquetaUpdateId" min="-2" pref="48" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                                   <Component id="IdActualizar" min="-2" pref="84" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                  <Component id="cargarPelicula" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cargarPeliculaUpdate" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                          <Component id="etiquetaActualizarDirector" min="-2" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" attributes="0">
                                                   <EmptySpace max="32767" attributes="0"/>
-                                                  <Component id="jButton1" min="-2" pref="102" max="-2" attributes="0"/>
+                                                  <Component id="ActualizarPelicula" min="-2" pref="102" max="-2" attributes="0"/>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Component id="jButton2" min="-2" pref="98" max="-2" attributes="0"/>
+                                                  <Component id="limpiarDatosUpdateP" min="-2" pref="98" max="-2" attributes="0"/>
                                                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" attributes="0">
@@ -1490,7 +1481,7 @@
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel28" min="-2" pref="63" max="-2" attributes="0"/>
+                                          <Component id="etiquetaActualizarTitulo" min="-2" pref="63" max="-2" attributes="0"/>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Component id="tituloActualizar" min="-2" pref="237" max="-2" attributes="0"/>
                                       </Group>
@@ -1502,8 +1493,8 @@
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaDatosActualizarP" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaActualizarPelicula" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
                       </Group>
@@ -1513,29 +1504,29 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                          <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiquetaActualizarPelicula" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaUpdateId" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="IdActualizar" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="cargarPelicula" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cargarPeliculaUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="61" max="32767" attributes="0"/>
-                          <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiquetaDatosActualizarP" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="tituloActualizar" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaActualizarTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="directorActualizar" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaActualizarDirector" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ActualizarPelicula" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="limpiarDatosUpdateP" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                       </Group>
@@ -1543,7 +1534,7 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel26">
+                <Component class="javax.swing.JLabel" name="etiquetaActualizarPelicula">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="18" style="1"/>
@@ -1554,7 +1545,7 @@
                     <Property name="text" type="java.lang.String" value="Actualizar Pelicula"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel27">
+                <Component class="javax.swing.JLabel" name="etiquetaUpdateId">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1562,7 +1553,7 @@
                     <Property name="text" type="java.lang.String" value="ID"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel28">
+                <Component class="javax.swing.JLabel" name="etiquetaActualizarTitulo">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1577,7 +1568,7 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tituloActualizarActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel29">
+                <Component class="javax.swing.JLabel" name="etiquetaDatosActualizarP">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="18" style="1"/>
@@ -1588,7 +1579,7 @@
                     <Property name="text" type="java.lang.String" value="Datos para Actualizar"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel30">
+                <Component class="javax.swing.JLabel" name="etiquetaActualizarDirector">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1598,23 +1589,23 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="directorActualizar">
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton1">
+                <Component class="javax.swing.JButton" name="ActualizarPelicula">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Actualizar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ActualizarPeliculaActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton2">
+                <Component class="javax.swing.JButton" name="limpiarDatosUpdateP">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Cancelar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="limpiarDatosUpdatePActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JButton" name="cargarPelicula">
+                <Component class="javax.swing.JButton" name="cargarPeliculaUpdate">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1622,12 +1613,12 @@
                     <Property name="text" type="java.lang.String" value="Cargar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cargarPeliculaActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cargarPeliculaUpdateActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JLabel" name="jLabel31">
+            <Component class="javax.swing.JLabel" name="etiquetaActualizarContenido">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ebrima" size="48" style="1"/>
@@ -1657,27 +1648,29 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel35" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="461" max="-2" attributes="0"/>
                               <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="335" max="-2" attributes="0"/>
+                              <Component id="etiquetaEliminarContenido" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace pref="665" max="32767" attributes="0"/>
+                      <EmptySpace pref="457" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-                      <Component id="jLabel35" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                      <Component id="etiquetaEliminarContenido" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                       <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="391" max="32767" attributes="0"/>
+                      <EmptySpace pref="301" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1702,13 +1695,13 @@
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
-                                  <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiquetaEliminar" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel34" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaTituloEliminar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiquetaIdEliminar" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace pref="59" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -1731,7 +1724,7 @@
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="botonBorrar" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="botonBorrarCancelar" min="-2" max="-2" attributes="0"/>
+                          <Component id="botonLimpiarBorrar" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -1740,24 +1733,24 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                          <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiquetaEliminar" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiquetaIdEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="idBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="cargarEliminar" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="etiquetaTituloEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="borrarTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="30" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="botonBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="botonBorrarCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="botonLimpiarBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                       </Group>
@@ -1765,7 +1758,7 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel32">
+                <Component class="javax.swing.JLabel" name="etiquetaEliminar">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="18" style="1"/>
@@ -1776,7 +1769,7 @@
                     <Property name="text" type="java.lang.String" value="Eliminar Contenido"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel33">
+                <Component class="javax.swing.JLabel" name="etiquetaIdEliminar">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1784,7 +1777,7 @@
                     <Property name="text" type="java.lang.String" value="ID"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel34">
+                <Component class="javax.swing.JLabel" name="etiquetaTituloEliminar">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Ebrima" size="12" style="1"/>
@@ -1807,12 +1800,12 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonBorrarActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JButton" name="botonBorrarCancelar">
+                <Component class="javax.swing.JButton" name="botonLimpiarBorrar">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Cancelar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonBorrarCancelarActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonLimpiarBorrarActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JButton" name="cargarEliminar">
@@ -1828,7 +1821,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JLabel" name="jLabel35">
+            <Component class="javax.swing.JLabel" name="etiquetaEliminarContenido">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ebrima" size="48" style="1"/>

@@ -43,8 +43,8 @@ public class ConnectionDB {
             String dbURL = "jdbc:mysql://"+host+":"+port+"/redflix" ;
             
             conn = DriverManager.getConnection(dbURL, username, password);
-            if( conn != null ) 
-               System.out.println ( "Conectado" );
+            //if( conn != null ) 
+               //System.out.println ( "Conecta  do" );
         } 
         catch( SQLException | FileNotFoundException ex ) {
             ex.printStackTrace();
